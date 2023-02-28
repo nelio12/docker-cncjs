@@ -6,5 +6,5 @@ Exposes:
 - 8000
 
 ```
- $ docker run --privileged -p 80:8000 {image}
+ $ docker run -d --name cncjs --privileged -v cncjs_data:/root -p 80:8000 {image}
 ```
