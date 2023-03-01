@@ -6,5 +6,5 @@ Exposes:
 - 8000
 
 ```
- $ docker run -d --name cncjs --privileged -v cncjs_data:/root -p 80:8000 {image}
+ $ docker run -d --name cncjs --privileged --device /dev/ttyUSB2:/dev/ttyUSB2 -v cncjs_data:/root -p 80:8000 {image}
 ```
