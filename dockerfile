@@ -1,4 +1,4 @@
-FROM balenalib/raspberrypi3-node:latest
+FROM node:16.19.1-slim
 
 ENV CNCJS_VERSION=1.10.1
 
